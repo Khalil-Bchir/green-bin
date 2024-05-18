@@ -1,0 +1,8 @@
+{
+  "name": "greenBin",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite",
+  "id": "fe48da72"
+}

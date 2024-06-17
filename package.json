@@ -9,17 +9,24 @@
     "preview": "vite preview",
     "test:e2e": "cypress run",
     "test:unit": "vitest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "builder": "ionic build && npx cap copy && npx cap open android"
   },
   "dependencies": {
+    "@capacitor/android": "^6.0.0",
     "@capacitor/app": "6.0.0",
+    "@capacitor/camera": "^6.0.0",
     "@capacitor/core": "6.0.0",
+    "@capacitor/filesystem": "^6.0.0",
     "@capacitor/haptics": "6.0.0",
     "@capacitor/keyboard": "6.0.0",
+    "@capacitor/preferences": "^6.0.0",
     "@capacitor/status-bar": "6.0.0",
     "@ionic/vue": "^8.0.0",
     "@ionic/vue-router": "^8.0.0",
+    "axios": "^1.6.8",
     "ionicons": "^7.0.0",
+    "pinia": "^2.1.7",
     "vue": "^3.3.0",
     "vue-router": "^4.2.0"
   },
